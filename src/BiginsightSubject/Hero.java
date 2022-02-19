@@ -23,7 +23,7 @@ public class Hero extends Character {
         if (target.getDefense() < getOffensePower()) {
             damage = getOffensePower() - target.getDefense();
         }
-        Thread.sleep((long) (this.offenseSpeed * 100));
+        Thread.sleep((long) (this.offenseSpeed * 100)); //공격속도를 위해 추가
         target.setHp(target.getHp() - damage);
         return damage;
     }
