@@ -1,5 +1,6 @@
 package BiginsightSubject;
 
+//공통스킬, 궁극기를 어떻게 설계해야지?
 //영웅, 몬스터를 하나의 캐릭터로 설정 (영웅 =몬스터 공통 기능을 모아둔다)
 public abstract class Character {
 
