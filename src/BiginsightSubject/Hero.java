@@ -52,4 +52,8 @@ public class Hero extends Character {
                 "} " + super.toString();
     }
 
+
+    public int getLevel() {
+        return level;
+    }
 }

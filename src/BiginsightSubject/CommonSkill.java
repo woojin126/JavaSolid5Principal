@@ -1,5 +1,5 @@
 package BiginsightSubject;
 
 public interface CommonSkill {
-    abstract void commonSkill();
+    abstract void commonSkill(Character target);
 }

@@ -1,5 +1,5 @@
 package BiginsightSubject;
 
 public interface JobSkill {
-    void skill();
+    void jobSkill(Character target);
 }

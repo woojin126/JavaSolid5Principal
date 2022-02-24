@@ -27,9 +27,18 @@ public class Human extends Hero implements JobSkill {
         return super.toString();
     }
 
+/*
     @Override
     public void skill() {
         setDefense(this.getDefense() + this.getDefense() * 0.3);
     }
+*/
 
+    @Override
+    public void jobSkill(Character target) {
+        double v = getOffensePower() * getLevel();
+        double v2 = target.getHp() - v;
+        if (target.getHp() < 1 )
+            target.checkHP();
+    }
 }
