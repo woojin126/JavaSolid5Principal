@@ -42,6 +42,10 @@ public class Hero extends Character {
         this.level = level + 1;
     }
 
+    public int getLevel() {
+        return level;
+    }
+
     @Override
     public String toString() {
         return "Hero{" +
@@ -52,8 +56,4 @@ public class Hero extends Character {
                 "} " + super.toString();
     }
 
-
-    public int getLevel() {
-        return level;
-    }
 }
