@@ -7,6 +7,7 @@ public class Monster extends Character {
         this.setTribe("monster");
     }
 
+    //monster attack
     @Override
     public double attack(Character character) {
         return 0;
