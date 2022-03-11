@@ -13,7 +13,7 @@ public class Monster extends Character {
         return 0;
     }
 
-    //몬스터의 HP 상태 확인
+    //몬스터의 HP 상태 확인.
     @Override
     public void checkHP() {
         if (this.getHp() < 1) {
